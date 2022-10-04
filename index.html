@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUNGRY GUMBALL||FOOD ORDER WEBSITE</title>
+     <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- custom js link -->
+    <script src="./js/script.js" defer></script>
+</head>
+<body onload="loadfun()" >
+    <!-- preloader -->
+    <div class="loader"></div>
+    <!-- header section -->
+
+    <header>
+        <a href="#" class="logo">hungrygumball</a>
+
+        <nav class="navbar">
+            <a href="index.html" >home</a>
+            <a href="about.html">about</a>
+            <a href="#popular">popular</a>
+            <a href="menu.html">menu</a>
+            <a href="#contact">contact</a>
+            <a href="#faq">faq</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#search"><i class="fas fa-search icon" id="search-btn"></i></a>
+            <!-- <a href="#" class="fas fa-heart" class="icon"></a> -->
+            <a href="#" class="fas fa-shopping-cart icon" id="cart-btn"></a>
+            <a id="login-btn" class="fas fa-user icon"></a>
+            <i class="fas fa-bars" id="menu"></i>
+        </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- search btn section -->
+    <!-- searcg btn section ends -->
+
+    <!-- home section begins -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h2>welcome foodies 😋</h2>
+            <h1 class="heading1">your culinary adventure awaits,<br>
+            a taste you'll remember!!</h1>
+            <p>Your belly knows best, eat outside the box. Eat alot today
+                and again tomorrow, your hunger's at steak. Hundreads of flavour under one roof, a pinch of passion in every dish. You're in good hands 
+                with us!
+            </p>
+            <br>
+            <a href="menu.html" class="btn">place your order!</a>
+        </div>
+
+        <div class="image">
+            
+        <img src="images/home-img.png" alt="" class="home-img">
+        <img src="images/home-parallax-img.png" alt="" class="home-parallax-img">
+        </div>
+    </section>
+
+    <!-- about us section -->
+    <section class="about">
+        <div class="box-content">
+
+            <div class="image">
+                <img src="./images/about-img.png" alt="">
+            </div>
+
+            <div class="content">
+                <h1 class="heading">short history about us</h1>
+                <h1 class="heading1">hungrygumball started out as a street restaurant....</h1>
+                <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Cumque omnis corrupti eaque earum perspiciatis molestiae modi, 
+                     quasi adipisci quisquam vel dignissimos a asperiores ab, dolorem sequi iure ducimus harum 
+                     voluptatibus! Ratione animi distinctio repellendus vero cum vitae maxime porro excepturi?
+                     <br>
+                     Sensory indulgence unlocked <span class="dots">...</span>
+                </p>
+                <a href="about.html" class="btn" onclick="mybtn">read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- popular section -->
+    <section class="popular" id="popular">
+        <h1 class="heading">popular foods</h1>
+        <h1 class="heading1">based on customers taste and demands</h1>
+
+        <div class="box-content">
+
+            <div class="box">
+                <div class="image">
+                  <img src="./images/menu-1.png" alt="">  
+                  <a href="#" class="fas fa-heart" class="icon" ></a>
+                </div>
+
+                <div class="text">
+                    <h2>rich burger</h2>
+                    <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                   <p><span>n</span> 3,000</p> 
+                   <br>
+                   <div class="cart"><a href="#" class="btn" >add to cart <i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+                </div>
+
+            <div class="box">
+                <div class="image">
+                  <img src="./images/menu-2.png" alt="">  
+                  <a href="#" class="fas fa-heart" class="icon" ></a>
+                </div>
+
+                <div class="text">
+                    <h2>marcarpone pizza</h2>
+                    <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                   <p><span>n</span> 6,000</p> 
+                   <br>
+                   <div class="cart"><a href="#" class="btn" >add to cart <i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+                </div>
+
+            <div class="box">
+                <div class="image">
+                  <img src="./images/menu-3.png" alt="">  
+                  <a href="#" class="fas fa-heart" class="icon" ></a>
+                </div>
+
+                <div class="text">
+                    <h2>grilled toast</h2>
+                    <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                   <p><span>n</span> 1,500</p> 
+                   <br>
+                   <div class="cart"><a href="#" class="btn" >add to cart <i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+                </div>
+
+            <div class="box">
+                <div class="image">
+                  <img src="./images/menu-4.png" alt="">  
+                  <a href="#" class="fas fa-heart" class="icon"  ></a>
+                </div>
+
+                <div class="text">
+                    <h2>garnished bread</h2>
+                    <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                   <p><span>n</span> 4,200</p> 
+                   <br>
+                   <div class="cart"><a href="#" class="btn" >add to cart <i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+                </div>
+
+            <div class="box">
+                <div class="image">
+                  <img src="./images/menu-5.png" alt="" width="150px">  
+                  <a href="#" class="fas fa-heart" class="icon" ></a>
+                </div>
+
+                <div class="text">
+                    <h2>chips</h2>
+                    <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                   <p><span>n</span> 3,500</p> 
+                   <br>
+                   <div class="cart"><a href="#" class="btn" >add to cart <i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+                </div>
+
+            <div class="box">
+                <div class="image">
+                  <img src="./images/menu-6.png" alt="">  
+                  <a href="#" class="fas fa-heart" class="icon" ></a>
+                </div>
+
+                <div class="text">
+                    <h2>pepperoni pizza</h2>
+                    <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                   <p><span>n</span> 6,500</p> 
+                   <br>
+                   <div class="cart"><a href="#" class="btn" >add to cart <i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+                </div>
+
+            <div class="box">
+                <div class="image">
+                  <img src="./images/food-4.png" alt="" width="200px">  
+                  <a href="#" class="fas fa-heart" class="icon" ></a>
+                </div>
+
+                <div class="text">
+                    <h2>chocolate burger</h2>
+                    <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                   <p><span>n</span> 2,500</p> 
+                   <br>
+                   <div class="cart"><a href="#" class="btn" >add to cart <i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+                </div>
+
+            <div class="box">
+                <div class="image">
+                  <img src="./images/cake1.png" alt="" width="200px">  
+                  <a href="#" class="fas fa-heart" class="icon" ></a>
+                </div>
+
+                <div class="text">
+                    <h2>chocolate cake</h2>
+                    <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                   <p><span>n</span> 6,500</p> 
+                   <br>
+                   <div class="cart"><a href="#" class="btn" >add to cart <i class="fas fa-shopping-cart"></i></a></div>
+                </div>
+                </div>
+
+        </div>
+    </section>
+    <!-- menu section -->
+    <section class="menu">
+        <h1 class="heading">our menu </h1>
+        <h1 class="heading1">available foods categorised based on your liking</h1>
+        <h2>burger section</h2>
+        <div class="container">
+           
+            <div class="box-container">
+                <img src="./images/menu-1.png" alt="" width="120px">
+                <div class="text">
+                    <h1>rich burger</h1>
+                    <p><span>n</span>3000</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/food-2.png" alt="" width="150px">
+                <div class="text">
+                    <h1>meaty rich burger</h1>
+                    <p><span>n</span>4,500</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/food-4.png" alt="" width="150px">
+                <div class="text">
+                    <h1>chocolate burger</h1>
+                    <p><span>n</span>2,500</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/menu-4.png" alt="" width="120px">
+                <div class="text">
+                    <h1>garnished bread</h1>
+                    <p><span>n</span>4,200</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="more">
+            <a href="menu.html" class="btn">Load more <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <h3>pizza section</h3>
+
+        <div class="container">
+           
+            <div class="box-container">
+                <img src="./images/menu-2.png" alt="" width="120px">
+                <div class="text">
+                    <h1>marcarpone pizza</h1>
+                    <p><span>n</span>6000</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/menu-pizza.jpg" alt="" width="120px" style="border-radius: 100px;">
+                <div class="text">
+                    <h1>vergy pizza</h1>
+                    <p><span>n</span>4,500</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/menu-2.png" alt=""  width="120px" style="border-radius: 100px;">
+                <div class="text">
+                    <h1>fresco pizza</h1>
+                    <p><span>n</span>5,500</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/menu-pizza.jpg" alt=""  width="120px" style="border-radius: 100px;">
+                <div class="text">
+                    <h1>mushroom pizza</h1>
+                    <p><span>n</span>7,200</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="more">
+            <a href="menu.html" class="btn">Load more <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <h3>cake section</h3>
+
+        <div class="container">
+           
+            <div class="box-container">
+                <img src="./images/cake-png-26274.png" alt="" width="120px">
+                <div class="text">
+                    <h1>cinderella cake</h1>
+                    <p><span>n</span>6,700</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/cake-png-26285.png" alt="" width="110px" >
+                <div class="text">
+                    <h1>step-by-step cake</h1>
+                    <p><span>n</span>13,000</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/Cake-Transparent-Images.png" alt=""  width="120px" >
+                <div class="text">
+                    <h1>noreos cake</h1>
+                    <p><span>n</span>11,500</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/cake1.png" alt=""  width="140px">
+                <div class="text">
+                    <h1>chocolate cake</h1>
+                    <p><span>n</span>6,500</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="more">
+            <a href="menu.html" class="btn">Load more <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <h3>random section</h3>
+
+        <div class="container">
+           
+            <div class="box-container">
+                <img src="./images/menu-3.png" alt="" width="120px">
+                <div class="text">
+                    <h1>grilled toast</h1>
+                    <p><span>n</span>1,500</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/menu-momo.jpg" alt="" width="120px" style="border-radius: 100px;" >
+                <div class="text">
+                    <h1>garnished momo</h1>
+                    <p><span>n</span>9,000</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/food-1.png" alt=""  width="150px" >
+                <div class="text">
+                    <h1>veggie veggie</h1>
+                    <p><span>n</span>11,500</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+            <div class="box-container">
+                <img src="./images/cat-4.png" alt=""  width="150px" style="border-radius: 100px; padding: 3rem;">
+                <div class="text">
+                    <h1>chicken</h1>
+                    <p><span>n</span>2,500</p>
+                    <a href="" class="btn">add to cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="more">
+            <a href="menu.html" class="btn">Load more <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+    </section>
+
+    <!-- review section -->
+    <section class="review">
+        <h1 class="heading">reviews</h1>
+        <h1 class="heading1">what our customers say about us...</h1>
+
+        <div class="box-content">
+            <!-- <a href="#" class="prev">&#10094;</a> -->
+            <div class="box">
+                <div class="image">
+                    <img src="./images/avatar1.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>mimi dolce</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aut eos ipsam in fuga magni ab consequatur autem nesciunt neque.
+                        Quas inventore provident asperiores soluta!</p>
+                </div>
+            </div>
+            
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/avatar3.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>micheal williams</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aut eos ipsam in fuga magni ab consequatur autem nesciunt neque.
+                        Quas inventore provident asperiores soluta!</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/avatar4.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>aishat bashir</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aut eos ipsam in fuga magni ab consequatur autem nesciunt neque.
+                        Quas inventore provident asperiores soluta!</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./images/avatar5.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h2>bolu balogun</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aut eos ipsam in fuga magni ab consequatur autem nesciunt neque.
+                        Quas inventore provident asperiores soluta!</p>
+                </div>
+            </div>
+
+            <!-- <a href="#" class="next">&#10095;</a> -->
+        </div>
+
+        
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+        <h1 class="heading">contact us</h1>
+        <h1 class="heading1">reach out to hungrygumball</h1>
+
+        <div class="box-content">
+
+            <div class="box">
+                <img src="./images/icon-1.png" alt="">
+                <h2>7:00am - 11:00pm</h2>
+            </div>
+
+            <div class="box">
+                <img src="./images/icon-2.png" alt="">
+                <h2>+234-90-667-696-44</h2>
+            </div>
+
+            <div class="box">
+                <img src="./images/icon-3.png" alt="">
+                <h2>no 4, mika strt, ikorodu, lagos.</h2>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- faq section -->
+    <section class="faq" id="faq">
+        <h1 class="heading">faq</h1>
+        <h1 class="heading1">customers frequently asked questions...</h1>
+
+        <button class="btn">how does it work?</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos?</p>
+        </div>
+
+        <button class="btn">how long does it take for delivery?</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos</p>
+        </div>
+
+        <button class="btn">can I order for huge parties?</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos?</p>
+        </div>
+
+        <button class="btn">how much protein it contains?</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos</p>
+            </div>
+
+        <button class="btn">is it cooked with oil?</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos?</p>
+            </div>
+
+        <button class="btn">can i book a month to my occassion?</button>
+        <div class="panel">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nemo voluptatum id vitae ipsum. Cupiditate accusamus tempora saepe, 
+                fugiat aut quaerat tenetur reprehenderit dignissimos</p>
+            </div>
+
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="container">
+                <a href="#" class="logo">hungrygumball</a>
+                <div class="icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+
+            <div class="container">
+                <h1 class="heading">quick  links</h1>
+                <div class="links">
+                    <a href="index.html" >home</a>
+                    <a href="about.html">about</a>
+                    <a href="#popular">popular</a>
+                    <a href="menu.html">menu</a>
+                    <a href="#contact">contact</a>
+                    <a href="#faq">faq</a>
+                </div>
+        </div>
+
+            <div class="container">
+                <h1 class="heading">our menu</h1>
+                <div class="links">
+                    <a href="menu.html" >burger section</a>
+                    <a href="menu.html">pizza section</a>
+                    <a href="menu.html">cake section</a>
+                    <a href="menu.html">random section</a>
+                   
+                </div>
+            </div>
+
+            <div class="container">
+                <h1 class="heading">opening hours</h1>
+                <div class="links">
+                <p>Monday : 7:00am - 11:00pm</p>
+                <p>Tuesday : 7:00am - 11:00pm</p>
+                <p>Wednessday : 7:00am - 11:00pm</p>
+                <p>Thursday : 7:00am - 11:00pm</p>
+                <p>Friday : 7:00am - 11:00pm</p>
+                <p>Saturday : 7:00am - 11:00pm</p>
+                <p>Sunday : 7:00am - 11:00pm</p>
+            </div>
+
+        </div>
+        </div>
+        
+        <div class="copy">
+            <h1 class="heading">website developed by &copy;bluface || 2022</h1>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let loader = document.querySelector('.loader');
+
+function loadfun() {
+    loader.style.display = 'none';
+}
+    </script>
+</body>
+</html>
